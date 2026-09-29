@@ -1,0 +1,2 @@
+import styles from './FinalCTA.module.css';
+export default function FinalCTA({business}){return <section className={styles.section}><div className={styles.container}><div><span>Ready when you are</span><h2>Let's take a look at your project.</h2><p>Tell us what you need and the local team can help you figure out the next step.</p></div><div className={styles.actions}><a href="#quote">{business.cta.primary} <b>→</b></a>{business.contact?.phone&&<a className={styles.phone} href={`tel:${business.contact.phone}`}>Call {business.contact.phone}</a>}</div></div></section>}
