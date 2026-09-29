@@ -349,6 +349,103 @@ const businesses = {
       address: "Austin, TX",
     },
   },
+  "perry-roofers-austin": {
+    name: "Perry & Sons Roofers LLC",
+    slug: "perry-roofers-austin",
+    category: "Roofing",
+    location: "Austin, TX",
+
+    colors: {
+      primary: "#18392B",
+      primaryDark: "#0F261D",
+      accent: "#D97732",
+    },
+
+    description:
+      "Perry & Sons Roofers LLC provides roofing services for Austin homeowners, including roof repair, storm damage repair, shingle replacement, leak detection, full roof replacement, flashing repair, gutter services, and other roofing solutions.",
+
+    cta: {
+      primary: "Request a Quote",
+      secondary: "Call Now",
+    },
+
+    contact: {
+      phone: "(512) 600-7843",
+      email: "",
+      address: "11120 Metric Blvd, Austin, TX 78758",
+    },
+  },
+  "4-roofs": {
+    name: "4 Roofs",
+    slug: "4-roofs",
+    category: "Roofing",
+    location: "Austin, TX",
+    colors: { primary: "#183B56", primaryDark: "#102A3C", accent: "#D97732" },
+    description:
+      "4 Roofs provides residential and commercial roofing services across Central Texas and the Houston region, with more than 40 years of combined experience and solutions including shingle, metal, tile, flat roofing, and gutter services.",
+    cta: { primary: "Get a Free Quote", secondary: "Call Now" },
+    contact: {
+      phone: "(512) 520-5884",
+      email: "contact@4roofstx.com",
+      address: "8002 Research Blvd, Suite B, Austin, TX 78758",
+    },
+  },
+  "reliance-roofing": {
+    name: "Reliance Roofing",
+    slug: "reliance-roofing",
+    category: "Roofing",
+    location: "Austin, TX",
+
+    colors: {
+      primary: "#1F3A4A",
+      primaryDark: "#132832",
+      accent: "#D97732",
+    },
+
+    description:
+      "Reliance Roofing is a family-owned roofing and restoration company serving Central Texas with residential and commercial roofing, storm restoration, repairs, and complete re-roofing solutions.",
+
+    cta: {
+      primary: "Get a Free Inspection",
+      secondary: "Call Now",
+    },
+
+    contact: {
+      phone: "(512) 709-0676",
+      email: "Ben@RelianceTx.com",
+      address: "701 Tillery St. Suite 12, Austin, TX 78702",
+    },
+  },
+  "texas-tough-roofing": {
+    name: "Texas Tough Roofing",
+    slug: "texas-tough-roofing",
+    category: "Roofing",
+    location: "Houston, TX",
+    colors: { primary: "#183B56", primaryDark: "#102A3C", accent: "#D97732" },
+    description:
+      "Texas Tough Roofing provides roofing, guttering, and exterior painting services for homeowners in the Houston area, with roof installation, repair, and replacement for metal, shingle, and asphalt roofing.",
+    cta: { primary: "Get a Free Quote", secondary: "Call Now" },
+    contact: {
+      phone: "(832) 890-3564",
+      email: "texastoughroofing@gmail.com",
+      address: "Houston, TX",
+    },
+  },
+  "whitmans-contracting-roofing": {
+    name: "Whitmans Contracting & Roofing",
+    slug: "whitmans-contracting-roofing",
+    category: "Roofing",
+    location: "Houston, TX",
+    colors: { primary: "#183B56", primaryDark: "#102A3C", accent: "#D97732" },
+    description:
+      "Whitmans Contracting & Roofing is a family-owned and operated company providing residential and commercial roofing, contracting, and restoration services throughout Texas, with more than 45 years of industry experience.",
+    cta: { primary: "Get a Free Estimate", secondary: "Call Now" },
+    contact: {
+      phone: "713-300-9295",
+      email: "info@wcr-texas.com",
+      address: "2429 Bissonnet St., Suite 568, Houston, TX 77005",
+    },
+  },
 };
 
 export default businesses;
