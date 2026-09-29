@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./Projects.module.css";
-export default function Projects({ business }) {
-  if (!business.projects?.length) return null;
+export default function Projects({ commons }) {
+  if (!commons.projects?.length) return null;
   return (
     <section className={styles.section} id="projects">
       <div className={styles.container}>
@@ -14,7 +14,7 @@ export default function Projects({ business }) {
           </p>
         </div>
         <div className={styles.grid}>
-          {business.projects.map((project) => (
+          {commons.projects.map((project) => (
             <article className={styles.card} key={project.title}>
               <div className={styles.image}>
                 <Image

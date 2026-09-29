@@ -1,7 +1,7 @@
 import styles from "./Footer.module.css";
 import { FaInstagram, FaWhatsapp, FaLinkedinIn } from "react-icons/fa";
 
-export default function Footer({ business }) {
+export default function Footer({ business, commons }) {
   const nav = [
     ["Services", "#services"],
     ["About", "#about"],
@@ -21,7 +21,7 @@ export default function Footer({ business }) {
 
           <div className={styles.socials}>
             <a
-              href={business.socials?.instagram}
+              href={commons.socials?.instagram}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -30,7 +30,7 @@ export default function Footer({ business }) {
             </a>
 
             <a
-              href={business.socials?.whatsapp}
+              href={commons.socials?.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp"
@@ -39,7 +39,7 @@ export default function Footer({ business }) {
             </a>
 
             <a
-              href={business.socials?.linkedin}
+              href={commons.socials?.linkedin}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"

@@ -4,10 +4,10 @@
 import { useState } from "react";
 import styles from "./FAQ.module.css";
 
-export default function FAQ({ business }) {
+export default function FAQ({ commons }) {
   const [open, setOpen] = useState(0);
 
-  if (!business.faqs?.length) return null;
+  if (!commons.faqs?.length) return null;
 
   return (
     <section className={styles.section} id="faq">
@@ -33,7 +33,7 @@ export default function FAQ({ business }) {
         </div>
 
         <div className={styles.list}>
-          {business.faqs.map((faq, i) => {
+          {commons.faqs.map((faq, i) => {
             const active = open === i;
 
             return (

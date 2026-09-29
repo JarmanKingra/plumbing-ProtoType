@@ -1,8 +1,8 @@
 
 import styles from "./WhyChooseUs.module.css";
 
-export default function WhyChooseUs({ business }) {
-  if (!business.whyChooseUs?.length) return null;
+export default function WhyChooseUs({ commons }) {
+  if (!commons.whyChooseUs?.length) return null;
 
   return (
     <section className={styles.section}>
@@ -29,7 +29,7 @@ export default function WhyChooseUs({ business }) {
         </div>
 
         <div className={styles.features}>
-          {business.whyChooseUs.map((item, i) => (
+          {commons.whyChooseUs.map((item, i) => (
             <article className={styles.card} key={item.title}>
               <div className={styles.cardTop}>
                 <span className={styles.number}>

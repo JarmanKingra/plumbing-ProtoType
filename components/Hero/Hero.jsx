@@ -3,12 +3,12 @@
 import Image from "next/image";
 import styles from "./Hero.module.css";
 
-export default function Hero({ business }) {
+export default function Hero({ business, commons }) {
   return (
     <section className={styles.hero} id="top">
       <div className={styles.imageWrap}>
         <Image
-          src={business.heroImage}
+          src={commons.heroImage}
           alt={`${business.name} ${business.category} services`}
           fill
           priority
@@ -21,11 +21,11 @@ export default function Hero({ business }) {
 
       <div className={styles.container}>
         <div className={styles.copy}>
-          <span className={styles.eyebrow}>{business.eyebrow}</span>
+          <span className={styles.eyebrow}>{commons.eyebrow}</span>
 
-          <h1>{business.headline}</h1>
+          <h1>{commons.headline}</h1>
 
-          <p>{business.subheadline}</p>
+          <p>{commons.subheadline}</p>
 
           <div className={styles.buttons}>
             <a className={styles.primary} href="#quote">
@@ -42,13 +42,13 @@ export default function Hero({ business }) {
             )}
           </div>
 
-          {business.rating && (
+          {commons.rating && (
             <div className={styles.rating}>
               <span aria-hidden="true">★★★★★</span>
 
-              <strong>{business.rating}</strong>
+              <strong>{commons.rating}</strong>
 
-              <span>from {business.reviewCount}+ reviews</span>
+              <span>from {commons.reviewCount}+ reviews</span>
             </div>
           )}
         </div>
@@ -118,7 +118,7 @@ export default function Hero({ business }) {
                   Select a service
                 </option>
 
-                {business.services?.map((service) => (
+                {commons.services?.map((service) => (
                   <option key={service.name} value={service.name}>
                     {service.name}
                   </option>

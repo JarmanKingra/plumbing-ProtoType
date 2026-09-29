@@ -1,10 +1,10 @@
 import Image from "next/image";
 import styles from "./Team.module.css";
 
-export default function Team({ business }) {
-  if (!business.team?.length) return null;
+export default function Team({commons }) {
+  if (!commons.team?.length) return null;
 
-  const [featuredMember] = business.team;
+  const [featuredMember] = commons.team;
 
   return (
     <section className={styles.section} id="team">

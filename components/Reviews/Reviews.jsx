@@ -1,10 +1,10 @@
 "use client";
 import styles from "./Reviews.module.css";
 
-export default function Reviews({ business }) {
-  if (!business.reviews?.length) return null;
+export default function Reviews({ business, commons }) {
+  if (!commons.reviews?.length) return null;
 
-  const reviews = business.reviews;
+  const reviews = commons.reviews;
   const shouldAnimate = reviews.length > 5;
 
   return (
@@ -21,14 +21,14 @@ export default function Reviews({ business }) {
             </h2>
           </div>
 
-          {business.rating && (
+          {commons.rating && (
             <div className={styles.summary}>
-              <strong>{business.rating}</strong>
+              <strong>{commons.rating}</strong>
 
               <span className={styles.summaryStars}>★★★★★</span>
 
               <span className={styles.summaryReviews}>
-                from {business.reviewCount}+ reviews
+                from {commons.reviewCount}+ reviews
               </span>
             </div>
           )}
@@ -148,7 +148,7 @@ export default function Reviews({ business }) {
           </button>
 
           <a href="#reviews" className={styles.readButton}>
-            Read all {business.reviewCount || reviews.length}+ reviews
+            Read all {commons.reviewCount || reviews.length}+ reviews
             <span>→</span>
           </a>
         </div>
@@ -167,7 +167,7 @@ export default function Reviews({ business }) {
           <span className={styles.googleG}>G</span>
 
           <span>
-            {business.reviewCount || reviews.length} selected Google reviews
+            {commons.reviewCount || reviews.length} selected Google reviews
             supplied via Google.
           </span>
 

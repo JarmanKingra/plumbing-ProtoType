@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styles from "./Services.module.css";
 
-export default function Services({ business }) {
-  if (!business.services?.length) return null;
+export default function Services({ commons }) {
+  if (!commons.services?.length) return null;
 
   return (
     <section className={styles.section} id="services">
@@ -21,7 +21,7 @@ export default function Services({ business }) {
         </div>
 
         <div className={styles.grid}>
-          {business.services.map((service, i) => (
+          {commons.services.map((service, i) => (
             <article className={styles.card} key={service.name}>
               <div className={styles.imageWrap}>
                 <Image
