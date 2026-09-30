@@ -1,50 +1,71 @@
-const founderImage = "/founder.png";
-const heroImage = "/hero.png";
-const roofIntallation = "/roof-intallation.png";
-const roofReplacement = "/roofReplacement.png";
-const roofRepair = "/roofRepair.png";
-const completeRoofReplacement = "/completeRoofReplacement.png";
-const newResident = "/newResident.png";
-const stromDamage = "/stromDamage.png";
-const leakingRoof = "/leakingRoof.png";
-const residentialRoof = "/residentialRoof.png";
-const gutterReplacement = "/gutterReplacement.png";
+const founderImage = "/plumberOwner.png";
+const heroImage = "/heroImagePlumbing.png";
+const emergencyPlumbing = "/emergency-plumbing.png";
+const drainCleaning = "/drainCleaning.png";
+const waterHeater = "/waterHeater.png";
+const pipeRepair = "/pipeRepair.png";
+const fixture = "/fixture.png";
+const sewerLine = "/sewerLine.png";
+const wholeHome = "/wholeHome.png";
+const emergencyPipe = "/emergencyPipe.png";
+const waterHeaterReplace = "/waterHeaterReplace.png";
 
 const commons = {
   heroImage: heroImage,
   rating: 4.8,
   reviewCount: 96,
   yearsInBusiness: 11,
-  trustBadges: ["Licensed technicians", "Locally owned"],
-  eyebrow: "Comfort service for Austin homes",
-  headline: "Reliable roofing, built to protect what matters most.",
+  trustBadges: ["Licensed plumbers", "Locally owned"],
+
+  eyebrow: "Reliable plumbing service for your home",
+
+  headline: "Reliable plumbing, built to keep your home running smoothly.",
 
   subheadline:
-    "Quality roof repairs, replacements, and storm protection backed by experienced professionals who treat your home with care.",
+    "Quality plumbing repairs, installations, and emergency service backed by experienced professionals who treat your home with care.",
   hours: ["Mon–Fri: 7:00 AM–7:00 PM", "Sat: 8:00 AM–3:00 PM"],
   services: [
     {
-      name: "Roof Installation",
+      name: "Emergency Plumbing",
       description:
-        "Complete residential roof installation with quality materials, proper ventilation, and careful attention to every detail from start to finish.",
+        "Fast help for urgent plumbing problems including major leaks, burst pipes, overflowing fixtures, and other issues that need immediate attention.",
+      icon: "emergency",
+      image: emergencyPlumbing,
+    },
+    {
+      name: "Drain Cleaning",
+      description:
+        "Professional drain cleaning to clear stubborn clogs, slow drains, and buildup and help restore proper water flow throughout your home.",
+      icon: "drain",
+      image: drainCleaning,
+    },
+    {
+      name: "Water Heater Repair",
+      description:
+        "Diagnosis and repair for water heaters that are leaking, producing inconsistent hot water, or not working properly.",
+      icon: "water-heater",
+      image: waterHeater,
+    },
+    {
+      name: "Pipe Repair",
+      description:
+        "Reliable repairs for leaking, damaged, or aging pipes to help prevent water damage and keep your home's plumbing system working properly.",
+      icon: "pipe",
+      image: pipeRepair,
+    },
+    {
+      name: "Fixture Installation",
+      description:
+        "Professional installation of faucets, sinks, toilets, showers, and other plumbing fixtures with careful attention to proper connections and finishing.",
       icon: "installation",
-      image: roofIntallation,
+      image: fixture,
     },
-
     {
-      name: "Roof Replacement",
+      name: "Sewer Line Services",
       description:
-        "Full replacement for aging or damaged roofs, with practical material options and a properly installed system built for long-term protection.",
-      icon: "replacement",
-      image: roofReplacement,
-    },
-
-    {
-      name: "Roof Repair",
-      description:
-        "Reliable repairs for leaks, damaged shingles, flashing issues, and other roofing problems before they lead to more expensive property damage.",
-      icon: "repair",
-      image: roofRepair,
+        "Inspection and repair solutions for sewer line problems, recurring blockages, backups, and other issues affecting your home's drainage system.",
+      icon: "sewer",
+      image: sewerLine,
     },
   ],
   about: {
@@ -53,7 +74,7 @@ const commons = {
   },
   team: [
     {
-      name: "Mike Carter",
+      name: "Peggy Carter",
       role: "Owner & Lead Technician",
       bio: "Our company comes with a repair-first, no-pressure approach. Understand what your roof needs, explore your options, and make the next decision with confidence.",
       image: founderImage,
@@ -61,201 +82,198 @@ const commons = {
   ],
   reviews: [
     {
-      name: "Daniel K.",
+      name: "Daniel M.",
       location: "Austin, TX",
       date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
+      text: "They responded quickly to our plumbing issue and explained exactly what needed to be fixed before starting the work.",
       rating: 5,
     },
     {
-      name: "Laura P.",
-      location: "Pflugerville, TX",
+      name: "Sarah R.",
+      location: "Round Rock, TX",
       date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
+      text: "Our kitchen drain had been giving us problems for weeks. They cleared it quickly and everything has been working perfectly since.",
       rating: 5,
     },
     {
-      name: "Daniel K.",
+      name: "Michael T.",
+      location: "Cedar Park, TX",
+      date: "May 2026",
+      text: "Very professional service. The technician found the leak quickly and completed the repair without leaving a mess behind.",
+      rating: 5,
+    },
+    {
+      name: "Jessica L.",
+      location: "Pflugerville, TX",
+      date: "April 2026",
+      text: "We had no hot water and they were able to diagnose the water heater problem and get it working again.",
+      rating: 5,
+    },
+    {
+      name: "Robert K.",
+      location: "Georgetown, TX",
+      date: "April 2026",
+      text: "Great communication from scheduling through completion. The plumber arrived on time and clearly explained the options.",
+      rating: 5,
+    },
+    {
+      name: "Amanda P.",
+      location: "Leander, TX",
+      date: "March 2026",
+      text: "They replaced our old faucet and handled everything professionally. The new installation looks great and works perfectly.",
+      rating: 5,
+    },
+    {
+      name: "Chris W.",
       location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
+      date: "March 2026",
+      text: "Called them for an emergency leak and they were able to get someone out quickly. Excellent service and very helpful.",
       rating: 5,
     },
     {
-      name: "Laura P.",
+      name: "Jennifer S.",
+      location: "Round Rock, TX",
+      date: "February 2026",
+      text: "Our bathroom drain was completely backed up. They found the blockage and had everything flowing normally again in no time.",
+      rating: 5,
+    },
+    {
+      name: "David H.",
+      location: "Cedar Park, TX",
+      date: "February 2026",
+      text: "Professional, courteous, and straightforward. They gave us a clear explanation of the pipe issue and completed the repair properly.",
+      rating: 5,
+    },
+    {
+      name: "Emily C.",
       location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
+      date: "January 2026",
+      text: "Really happy with the service. They arrived when promised, worked efficiently, and cleaned everything up afterward.",
       rating: 5,
     },
     {
-      name: "Daniel K.",
+      name: "Mark B.",
       location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
+      date: "January 2026",
+      text: "We needed a new water heater and the whole process was much easier than expected. The installation was clean and professional.",
       rating: 5,
     },
     {
-      name: "Laura P.",
-      location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
+      name: "Rachel G.",
+      location: "Leander, TX",
+      date: "December 2025",
+      text: "They took the time to explain what was causing our recurring plumbing problem instead of just treating the symptoms.",
       rating: 5,
     },
     {
-      name: "Daniel K.",
+      name: "Tom W.",
+      location: "Georgetown, TX",
+      date: "December 2025",
+      text: "Excellent experience from start to finish. The technician was knowledgeable and completed the repair quickly.",
+      rating: 5,
+    },
+    {
+      name: "Nicole A.",
       location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
+      date: "November 2025",
+      text: "We had a leaking bathroom fixture and they took care of it the same day. Friendly service and fair communication throughout.",
       rating: 5,
     },
     {
-      name: "Laura P.",
+      name: "Brian F.",
+      location: "Round Rock, TX",
+      date: "November 2025",
+      text: "They inspected our plumbing system and helped us understand what needed attention now and what could wait.",
+      rating: 5,
+    },
+    {
+      name: "Ashley D.",
+      location: "Cedar Park, TX",
+      date: "October 2025",
+      text: "Fast response, clean work, and no unnecessary hassle. I would definitely call them again for future plumbing work.",
+      rating: 5,
+    },
+    {
+      name: "Kevin J.",
       location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
+      date: "October 2025",
+      text: "Our sewer line was causing repeated backups. They identified the problem and explained the repair clearly before getting started.",
       rating: 5,
     },
     {
-      name: "Daniel K.",
+      name: "Lauren N.",
       location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
+      date: "September 2025",
+      text: "Very impressed with how professional the entire experience was. The technician answered all of our questions and did a great job.",
       rating: 5,
     },
     {
-      name: "Laura P.",
-      location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
+      name: "Steven R.",
+      location: "Leander, TX",
+      date: "September 2025",
+      text: "They fixed a pipe leak that had started causing water damage. Quick service and everything was left clean afterward.",
       rating: 5,
     },
     {
-      name: "Daniel K.",
-      location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
-      rating: 5,
-    },
-    {
-      name: "Laura P.",
-      location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
-      rating: 5,
-    },
-    {
-      name: "Daniel K.",
-      location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
-      rating: 5,
-    },
-    {
-      name: "Laura P.",
-      location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
-      rating: 5,
-    },
-    {
-      name: "Daniel K.",
-      location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
-      rating: 5,
-    },
-    {
-      name: "Laura P.",
-      location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
-      rating: 5,
-    },
-    {
-      name: "Daniel K.",
-      location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
-      rating: 5,
-    },
-    {
-      name: "Laura P.",
-      location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
-      rating: 5,
-    },
-    {
-      name: "Daniel K.",
-      location: "Austin, TX",
-      date: "June 2026",
-      text: "They arrived on time, found the issue quickly, and explained the repair before doing anything.",
-      rating: 5,
-    },
-    {
-      name: "Laura P.",
-      location: "Pflugerville, TX",
-      date: "May 2026",
-      text: "Professional from scheduling to cleanup. Our AC was back to normal quickly.",
+      name: "Megan T.",
+      location: "Round Rock, TX",
+      date: "August 2025",
+      text: "Easy to schedule, showed up on time, and fixed our plumbing problem without any unnecessary complications.",
       rating: 5,
     },
   ],
+
   projects: [
     {
-      title: "Complete Roof Replacement",
+      title: "Whole-Home Plumbing Repair",
       location: "Austin",
-      service: "Roof Replacement",
+      service: "Plumbing Repair",
       description:
-        "Removed an aging roof and installed a new residential roofing system with durable materials and careful attention to flashing and ventilation.",
-      image: completeRoofReplacement,
+        "Diagnosed and repaired multiple plumbing issues throughout a residential property, restoring reliable water flow and preventing further leaks.",
+      image: wholeHome,
     },
-
     {
-      title: "New Residential Roof Installation",
+      title: "Emergency Pipe Leak Repair",
       location: "Round Rock",
-      service: "Roof Installation",
+      service: "Pipe Repair",
       description:
-        "Installed a new roofing system on a residential property, focusing on proper shingle placement, flashing, ventilation, and clean finishing.",
-      image: newResident,
+        "Located and repaired a leaking residential water pipe before the issue could cause additional damage to the home.",
+      image: emergencyPipe,
     },
-
     {
-      title: "Storm Damage Roof Repair",
+      title: "Water Heater Replacement",
       location: "Cedar Park",
-      service: "Storm Damage Repair",
+      service: "Water Heater Installation",
       description:
-        "Repaired roof damage caused by severe weather, replacing affected shingles and restoring areas that were exposed to leaks and further damage.",
-      image: stromDamage,
+        "Replaced an aging water heater with a new residential system designed to provide dependable hot water and improved reliability.",
+      image: waterHeaterReplace,
     },
-
-    {
-      title: "Leaking Roof Repair",
-      location: "Georgetown",
-      service: "Roof Repair",
-      description:
-        "Located the source of a persistent roof leak and completed targeted repairs to help prevent further water intrusion and interior damage.",
-      image: leakingRoof,
-    },
-
-    {
-      title: "Residential Roof Inspection",
-      location: "Pflugerville",
-      service: "Roof Inspection",
-      description:
-        "Completed a detailed roof inspection to identify worn materials, damaged areas, and potential maintenance concerns before they became larger problems.",
-      image: residentialRoof,
-    },
-
-    {
-      title: "Gutter Replacement Project",
-      location: "Leander",
-      service: "Gutter Installation",
-      description:
-        "Replaced outdated gutters with a new drainage system designed to move rainwater away from the roof, siding, and foundation more effectively.",
-      image: gutterReplacement,
-    },
+    // {
+    //   title: "Main Drain Cleaning",
+    //   location: "Georgetown",
+    //   service: "Drain Cleaning",
+    //   description:
+    //     "Cleared a severe main drain blockage and restored proper drainage throughout the home's plumbing system.",
+    //   image: leakingRoof,
+    // },
+    // {
+    //   title: "Bathroom Fixture Upgrade",
+    //   location: "Pflugerville",
+    //   service: "Fixture Installation",
+    //   description:
+    //     "Removed outdated bathroom fixtures and installed new plumbing fixtures with properly sealed and tested connections.",
+    //   image: residentialRoof,
+    // },
+    // {
+    //   title: "Sewer Line Repair",
+    //   location: "Leander",
+    //   service: "Sewer Line Services",
+    //   description:
+    //     "Addressed a recurring sewer drainage problem and completed targeted repairs to restore reliable wastewater flow from the property.",
+    //   image: gutterReplacement,
+    // },
   ],
+
   whyChooseUs: [
     {
       title: "Fast diagnostics",
@@ -279,49 +297,49 @@ const commons = {
   serviceAreas: ["Austin", "Pflugerville", "Round Rock"],
   faqs: [
     {
-      question: "Do you provide roof inspections?",
+      question: "Do you provide plumbing inspections?",
       answer:
-        "Yes. We inspect residential roofs for damaged shingles, leaks, worn materials, flashing problems, and other issues that may need attention.",
+        "Yes. We inspect residential plumbing systems for leaks, damaged pipes, drainage problems, water pressure issues, and other problems that may need attention.",
     },
 
     {
-      question: "How do I know if my roof needs repair or replacement?",
+      question: "How do I know if my plumbing needs repair or replacement?",
       answer:
-        "It depends on the roof's age, overall condition, extent of the damage, and repair history. We can inspect the roof and explain whether a repair or replacement makes more sense.",
+        "It depends on the age and condition of the plumbing, the extent of the problem, and whether the issue has happened repeatedly. We can inspect the system and explain whether a repair or replacement makes more sense.",
     },
 
     {
-      question: "Do you repair storm and hail damage?",
+      question: "Do you handle emergency plumbing problems?",
       answer:
-        "Yes. We can inspect roofs after wind, hail, and severe weather and identify damaged areas that may need repair or replacement.",
+        "Yes. We can help with urgent plumbing problems such as burst pipes, major leaks, clogged drains, overflowing fixtures, and other issues that require immediate attention.",
     },
 
     {
-      question: "How long does a roof replacement take?",
+      question: "How long does a plumbing repair take?",
       answer:
-        "The timeline depends on the size and condition of the roof, the materials selected, and weather conditions. After an inspection, we can provide a clearer estimate for your project.",
+        "The timeline depends on the type and extent of the plumbing problem. After inspecting the issue, we can provide a clearer idea of the work required and the expected completion time.",
     },
 
     {
-      question: "Can I request a roofing estimate online?",
+      question: "Can I request a plumbing estimate online?",
       answer:
-        "Yes. Use the request form to tell us about your property and the roofing service you need. Our team can follow up with the next steps and scheduling details.",
+        "Yes. Use the request form to tell us about your property and the plumbing service you need. Our team can follow up with the next steps and scheduling details.",
     },
 
     {
-      question: "What types of roofing services do you provide?",
+      question: "What types of plumbing services do you provide?",
       answer:
-        "We provide residential roof installation, roof replacement, roof repair, storm damage repair, roof inspections, and gutter installation.",
+        "We provide residential plumbing services including leak repair, drain cleaning, pipe repair, fixture installation, water heater service, and general plumbing maintenance.",
     },
 
     {
-      question: "Do you replace damaged gutters?",
+      question: "Do you repair leaking pipes and fixtures?",
       answer:
-        "Yes. We provide gutter installation and replacement to help direct rainwater away from your roof, siding, and foundation.",
+        "Yes. We can diagnose and repair common plumbing leaks involving pipes, faucets, toilets, sinks, and other residential plumbing fixtures.",
     },
 
     {
-      question: "How quickly can someone inspect my roof?",
+      question: "How quickly can someone come out for a plumbing problem?",
       answer:
         "Scheduling depends on current availability and the type of service required. Submit a request with your property details and our team can confirm the next available appointment.",
     },
@@ -336,91 +354,27 @@ const commons = {
 
 const businesses = {
   "mikes-hvac": {
-    name: "Mike's HVAC",
-    slug: "mikes-hvac",
-    category: "Roofing",
-    location: "Austin, TX",
-    colors: { primary: "#17324d", primaryDark: "#102438", accent: "#d46b2f" },
-    description:
-      "Mike’s HVAC provides residential heating and cooling service with a focus on dependable repairs, clear explanations, and long-term comfort.",
-    cta: { primary: "Request Service", secondary: "Call Now" },
-    contact: {
-      phone: "(512) 555-0188",
-      email: "service@mikes-hvac.example",
-      address: "Austin, TX",
-    },
+  name: "Mike's HVAC",
+  slug: "mikes-hvac",
+  category: "Plumbing",
+  location: "Austin, TX",
+  colors: {
+    primary: "#17324d",
+    primaryDark: "#102438",
+    accent: "#d46b2f",
   },
-  "4-roofs": {
-    name: "4 Roofs",
-    slug: "4-roofs",
-    category: "Roofing",
-    location: "Austin, TX",
-    colors: { primary: "#183B56", primaryDark: "#102A3C", accent: "#D97732" },
-    description:
-      "4 Roofs provides residential and commercial roofing services across Central Texas and the Houston region, with more than 40 years of combined experience and solutions including shingle, metal, tile, flat roofing, and gutter services.",
-    cta: { primary: "Get a Free Quote", secondary: "Call Now" },
-    contact: {
-      phone: "(512) 520-5884",
-      email: "contact@4roofstx.com",
-      address: "8002 Research Blvd, Suite B, Austin, TX 78758",
-    },
+  description:
+    "Mike’s HVAC provides residential plumbing services with a focus on dependable repairs, clear communication, and practical solutions for keeping your home’s plumbing running smoothly.",
+  cta: {
+    primary: "Request Service",
+    secondary: "Call Now",
   },
-  "reliance-roofing": {
-    name: "Reliance Roofing",
-    slug: "reliance-roofing",
-    category: "Roofing",
-    location: "Austin, TX",
-
-    colors: {
-      primary: "#1F3A4A",
-      primaryDark: "#132832",
-      accent: "#D97732",
-    },
-
-    description:
-      "Reliance Roofing is a family-owned roofing and restoration company serving Central Texas with residential and commercial roofing, storm restoration, repairs, and complete re-roofing solutions.",
-
-    cta: {
-      primary: "Get a Free Inspection",
-      secondary: "Call Now",
-    },
-
-    contact: {
-      phone: "(512) 709-0676",
-      email: "Ben@RelianceTx.com",
-      address: "701 Tillery St. Suite 12, Austin, TX 78702",
-    },
+  contact: {
+    phone: "(512) 555-0188",
+    email: "service@mikes-hvac.example",
+    address: "Austin, TX",
   },
-  "texas-tough-roofing": {
-    name: "Texas Tough Roofing",
-    slug: "texas-tough-roofing",
-    category: "Roofing",
-    location: "Houston, TX",
-    colors: { primary: "#183B56", primaryDark: "#102A3C", accent: "#D97732" },
-    description:
-      "Texas Tough Roofing provides roofing, guttering, and exterior painting services for homeowners in the Houston area, with roof installation, repair, and replacement for metal, shingle, and asphalt roofing.",
-    cta: { primary: "Get a Free Quote", secondary: "Call Now" },
-    contact: {
-      phone: "(832) 890-3564",
-      email: "texastoughroofing@gmail.com",
-      address: "Houston, TX",
-    },
-  },
-  "whitmans-contracting-roofing": {
-    name: "Whitmans Contracting & Roofing",
-    slug: "whitmans-contracting-roofing",
-    category: "Roofing",
-    location: "Houston, TX",
-    colors: { primary: "#183B56", primaryDark: "#102A3C", accent: "#D97732" },
-    description:
-      "Whitmans Contracting & Roofing is a family-owned and operated company providing residential and commercial roofing, contracting, and restoration services throughout Texas, with more than 45 years of industry experience.",
-    cta: { primary: "Get a Free Estimate", secondary: "Call Now" },
-    contact: {
-      phone: "713-300-9295",
-      email: "info@wcr-texas.com",
-      address: "2429 Bissonnet St., Suite 568, Houston, TX 77005",
-    },
-  },
+},
   "tucker-plumbing": {
     name: "Tucker Plumbing LLC",
     slug: "tucker-plumbing",
@@ -434,51 +388,6 @@ const businesses = {
       phone: "(281) 469-5354",
       email: "service@tuckerplumbing.net",
       address: "8219 Coolshire Ln, Houston, TX 77070",
-    },
-  },
-  "hg-roof-repair": {
-    name: "HG Roof Repair",
-    slug: "hg-roof-repair",
-    category: "Roofing",
-    location: "San Antonio, TX",
-    colors: {
-      primary: "#173B4D",
-      primaryDark: "#102A37",
-      accent: "#D97732",
-    },
-    description:
-      "HG Roof Repair is a locally owned San Antonio roofing company specializing in roof repairs, leak repair, missing shingles, storm damage, and roof inspections throughout San Antonio and Bexar County.",
-    cta: {
-      primary: "Get a Free Estimate",
-      secondary: "Call Now",
-    },
-    contact: {
-      phone: "(210) 396-0922",
-      email: "hugoroofer8888@gmail.com",
-      address: "345 N San Gabriel Ave, San Antonio, TX 78237",
-    },
-  },
-  "albright-roofing": {
-    name: "Albright Roofing",
-    slug: "albright-roofing",
-    category: "Roofing",
-    location: "Flint, TX",
-    colors: {
-      primary: "#173B4D",
-      primaryDark: "#102A37",
-      accent: "#D97732",
-    },
-    description:
-      "Albright Roofing is an East Texas roofing company with 16 years in business, providing residential roofing services with a focus on quality work, customer experience, financing, and dependable project completion.",
-    cta: {
-      primary: "Get a Free Inspection",
-      secondary: "Call Now",
-    },
-    contact: {
-      phone: "903-752-1444",
-      email: "info@roofingetx.com",
-      address:
-        "17968 Old Jacksonville Hwy, Bldg 10, #50, P.O. Box 242, Flint, TX 75762",
     },
   },
 };
