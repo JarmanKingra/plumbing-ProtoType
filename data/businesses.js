@@ -394,6 +394,468 @@ const businesses = {
       address: "8219 Coolshire Ln, Houston, TX 77070",
     },
   },
+  "24-hour-plumbing": {
+    name: "24-Hour Plumbing",
+    slug: "24-hour-plumbing",
+    category: "Plumbing",
+    location: "Dallas, TX",
+    colors: {
+      primary: "#0F4C5C",
+      primaryDark: "#083642",
+      accent: "#16A6A0",
+    },
+    description:
+      "24-Hour Plumbing is a family-owned and operated plumbing company serving Dallas and the surrounding DFW area since 1999, providing reliable residential plumbing services from everyday repairs to complex installations and emergency plumbing needs.",
+    cta: {
+      primary: "Get a Free Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "972-900-5514",
+      email: "",
+      address: "2227 Park Springs Ct, Arlington, TX 76013",
+    },
+  },
+  "the-plumbing-service": {
+    name: "The Plumbing Service",
+    slug: "the-plumbing-service",
+    category: "Plumbing",
+    location: "Arlington, TX",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "The Plumbing Service provides commercial and residential plumbing throughout the Dallas-Fort Worth area, offering repairs, remodels, gas and water line services, sewer work, water heater service, drain cleaning, leak locating, and other plumbing solutions.",
+    cta: {
+      primary: "Get a Free Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "817-225-2153",
+      email: "brent@theplumbingservice.com",
+      address: "PO BOX 150971, Arlington, TX 76015",
+    },
+  },
+  "mosqueda-plumbing": {
+    name: "Mosqueda Plumbing Co",
+    slug: "mosqueda-plumbing",
+    category: "Plumbing",
+    location: "Arlington, TX",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Mosqueda Plumbing Co is a family-owned and operated plumbing company serving Arlington and the DFW Metroplex, providing residential, commercial, remodeling, drain cleaning, water heater, new construction, and plumbing services.",
+    cta: {
+      primary: "Request a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(682) 427-4043",
+      email: "Info@MosquedaPlumbing.com",
+      address: "Arlington, TX",
+    },
+  },
+  "ping-plumbing": {
+    name: "Ping Plumbing LLC",
+    slug: "ping-plumbing",
+    category: "Plumbing",
+    location: "Arlington, TX",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Ping Plumbing LLC is a local DFW plumbing company serving residential and commercial customers with service plumbing, cast-iron sewer replacement, drain and sewer services, water heater installation and repair, and remodel plumbing.",
+    cta: {
+      primary: "Call Ping Plumbing",
+      secondary: "Get a Quote",
+    },
+    contact: {
+      phone: "(817) 204-4784",
+      email: "pingplumbingtexas@gmail.com",
+      address: "Arlington, TX",
+    },
+  },
+  "smith-plumbing-dfw": {
+    name: "Smith Plumbing Company",
+    slug: "smith-plumbing-dfw",
+    category: "Plumbing",
+    location: "Grand Prairie, TX",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Smith Plumbing Company has served the DFW area since 1954, providing plumbing repair, water heater services, slab leak repair, repiping, leak detection, and other residential plumbing services.",
+    cta: {
+      primary: "Get a Free Estimate",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(972) 264-9430",
+      email: "",
+      address: "Grand Prairie, TX",
+    },
+  },
+  "ingram-plumbing-service": {
+    name: "Ingram Plumbing Service",
+    slug: "ingram-plumbing-service",
+    category: "Plumbing",
+    location: "Fairview, TX",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Ingram Plumbing Service provides residential and commercial plumbing services, from faucet installation and repairs to sewer line replacement, with a focus on reliable service, quality parts, and individualized plumbing solutions.",
+    cta: {
+      primary: "Get a Free Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "469-671-1664",
+      email: "ingramplumbingservice@gmail.com",
+      address: "681 Forest Oaks Drive, Fairview, TX 75069",
+    },
+  },
+  "texas-slab-leak-repair": {
+    name: "Texas Slab Leak Repair",
+    slug: "texas-slab-leak-repair",
+    category: "Plumbing",
+    location: "Dallas, TX",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Texas Slab Leak Repair specializes in slab leak detection and repair throughout the Dallas-Fort Worth area, providing sewer, gas, water leak, general plumbing, and slab repair services since 1998.",
+    cta: {
+      primary: "Get a Price Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(972) 900-5514",
+      email: "",
+      address: "12484 Abrams Rd, Dallas, TX 75243",
+    },
+  },
+  "plumbgreat-plumbing": {
+    name: "Plumbgreat Plumbing",
+    slug: "plumbgreat-plumbing",
+    category: "Plumbing",
+    location: "Tampa, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Plumbgreat Plumbing is an owner-operated licensed plumbing company serving Tampa, providing drain cleaning, faucet repair and installation, water heater services, garbage disposal repair, toilet services, and water treatment solutions.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "813-595-3563",
+      email: "cthompson@plumbgreat.com",
+      address: "Tampa, FL",
+    },
+  },
+  "sample-plumbing": {
+    name: "Sample Plumbing Inc.",
+    slug: "sample-plumbing",
+    category: "Plumbing",
+    location: "Tampa, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Sample Plumbing Inc. is a family-owned and operated plumbing service and contracting company serving Tampa Bay and Central Florida, providing residential and commercial plumbing, repairs, installations, water heaters, re-piping, trenchless sewer repair, and new construction services.",
+    cta: {
+      primary: "Get a Free Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(813) 251-0280",
+      email: "kpsample@outlook.com",
+      address: "Tampa, FL",
+    },
+  },
+  "docks-decks-marine": {
+    name: "Docks & Decks Marine",
+    slug: "docks-decks-marine",
+    category: "Marine",
+    location: "Florida",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Docks & Decks Marine provides marine construction and waterfront services including dock and deck work for residential and commercial properties.",
+    cta: {
+      primary: "Request a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(727) 275-8937",
+      email: "",
+      address: "Florida",
+    },
+  },
+  "mclain-plumbing-mechanical": {
+    name: "McLain Plumbing & Mechanical",
+    slug: "mclain-plumbing-mechanical",
+    category: "Plumbing",
+    location: "Tampa, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "McLain Plumbing & Mechanical is a family-owned plumbing and HVAC company serving Tampa, providing plumbing repairs, remodeling, residential and commercial new construction, and commercial property service and repair.",
+    cta: {
+      primary: "Request a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(813) 876-9046",
+      email: "sandramclain01@yahoo.com",
+      address: "2403 E 4th Ave, Tampa, FL 33605",
+    },
+  },
+  "henry-gonzalez-plumbing": {
+    name: "Henry Gonzalez Plumbing Co.",
+    slug: "henry-gonzalez-plumbing",
+    category: "Plumbing",
+    location: "Tampa, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Henry Gonzalez Plumbing Co. is a family-owned and operated full-service plumbing company serving Tampa, providing residential and commercial plumbing, emergency service, new construction, remodeling, backflow testing and repair, and warranty repair work.",
+    cta: {
+      primary: "Get a Free Estimate",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(813) 251-1980",
+      email: "main@henrygonzalezplumbing.com",
+      address: "2107 W. Kathleen Street, Tampa, FL 33607",
+    },
+  },
+  "orlando-pipe-doctor": {
+    name: "Pipe Doctor Home Services",
+    slug: "orlando-pipe-doctor",
+    category: "Plumbing",
+    location: "Orlando, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Pipe Doctor Home Services provides plumbing, water heating, and cooling services for homeowners in the Orlando area.",
+    cta: {
+      primary: "Request Service",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(813) 251-1980",
+      email: "",
+      address: "Orlando, FL",
+    },
+  },
+  "asap-service-plumbing": {
+    name: "ASAP Service Plumbing",
+    slug: "asap-service-plumbing",
+    category: "Plumbing",
+    location: "Orlando, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "ASAP Service Plumbing provides residential and commercial plumbing services throughout the Orlando and Kissimmee area, including drain repair, sewer services, water heaters, repiping, slab leak repair, hydro jetting, and trenchless pipe lining.",
+    cta: {
+      primary: "Book a Service",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(407) 565-8808",
+      email: "service@asapserviceplumbing.com",
+      address: "1101 Miranda Ln, Kissimmee, FL 34741",
+    },
+  },
+  "plumb-perfect-florida": {
+    name: "Plumb Perfect Florida",
+    slug: "plumb-perfect-florida",
+    category: "Plumbing",
+    location: "Orlando, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Plumb Perfect Florida was established in 2021 by Hunter Vann and provides professional plumbing services for customers in the Orlando area.",
+    cta: {
+      primary: "Get a Free Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "407-712-4963",
+      email: "",
+      address: "6441 S Chickasaw Trail, Suite #159, Orlando, FL 32829",
+    },
+  },
+  "highlights-plumbing": {
+    name: "Highlights Plumbing Services",
+    slug: "highlights-plumbing",
+    category: "Plumbing",
+    location: "Kissimmee, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Highlights Plumbing Services is a small plumbing business operated by Maxene St. Gerard, providing residential, commercial, emergency, drain cleaning, pipe repair, water heater, sewer, gas plumbing, and inspection services across Central Florida.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(954) 513-7653",
+      email: "highlightsplumbingservices@gmail.com",
+      address: "1923 Magical Lane, Kissimmee, FL 34744",
+    },
+  },
+  "orlando-city-plumbing": {
+    name: "Orlando City Plumbing",
+    slug: "orlando-city-plumbing",
+    category: "Plumbing",
+    location: "Orlando, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Orlando City Plumbing provides residential and commercial plumbing services including repairs, repiping, drain cleaning, water heater installation, fixture installation, inspections, and major plumbing projects throughout Orlando and surrounding areas.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(407) 790-6795",
+      email: "office@orlandocityplumbing.com",
+      address: "Orlando, FL",
+    },
+  },
+  "jaffe-plumbing": {
+    name: "Jaffe Plumbing",
+    slug: "jaffe-plumbing",
+    category: "Plumbing",
+    location: "Orlando, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Jaffe Plumbing is an Orlando plumbing company providing residential and commercial plumbing services, including plumbing repairs, installations, gas services, and water heater services.",
+    cta: {
+      primary: "Request Service",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "407-879-7997",
+      email: "",
+      address: "1012 Malaga St, Orlando, FL 32822",
+    },
+  },
+  "larson-plumbing": {
+    name: "Larson Plumbing",
+    slug: "larson-plumbing",
+    category: "Plumbing",
+    location: "Tampa, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Larson Plumbing is a family-owned and operated Tampa plumbing company providing residential and commercial plumbing repairs and installations, drain cleaning, water heater services, remodeling, fixtures, and 24-hour emergency plumbing.",
+    cta: {
+      primary: "Get a Free Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(813) 242-0911",
+      email: "info@larsonplumbing.net",
+      address: "3205 E 8th Ave, Tampa, FL 33605",
+    },
+  },
+  "aqua-mechanical-group": {
+    name: "Aqua Mechanical Group",
+    slug: "aqua-mechanical-group",
+    category: "Plumbing",
+    location: "Florida",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Aqua Mechanical Group provides mechanical and plumbing services for customers in Florida.",
+    cta: {
+      primary: "Request a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(813) 251-1980",
+      email: "",
+      address: "Florida",
+    },
+  },
+  "associated-plumbing": {
+    name: "Associated Plumbing Inc.",
+    slug: "associated-plumbing",
+    category: "Plumbing",
+    location: "Tampa, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Associated Plumbing Inc. provides residential and commercial plumbing services in the Tampa area, including drain cleaning, water jetting, water heater services, garbage disposals, sewer camera inspections, sinks, faucets, and related plumbing work.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(813) 991-7960",
+      email: "",
+      address: "7402 N 56th St, Suite 525, Tampa, FL 33617",
+    },
+  },
 };
 
 export default businesses;
