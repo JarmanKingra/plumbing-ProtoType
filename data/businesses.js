@@ -349,32 +349,6 @@ const businesses = {
       address: "Austin, TX",
     },
   },
-  "perry-roofers-austin": {
-    name: "Perry & Sons Roofers LLC",
-    slug: "perry-roofers-austin",
-    category: "Roofing",
-    location: "Austin, TX",
-
-    colors: {
-      primary: "#18392B",
-      primaryDark: "#0F261D",
-      accent: "#D97732",
-    },
-
-    description:
-      "Perry & Sons Roofers LLC provides roofing services for Austin homeowners, including roof repair, storm damage repair, shingle replacement, leak detection, full roof replacement, flashing repair, gutter services, and other roofing solutions.",
-
-    cta: {
-      primary: "Request a Quote",
-      secondary: "Call Now",
-    },
-
-    contact: {
-      phone: "(512) 600-7843",
-      email: "",
-      address: "11120 Metric Blvd, Austin, TX 78758",
-    },
-  },
   "4-roofs": {
     name: "4 Roofs",
     slug: "4-roofs",
@@ -444,6 +418,66 @@ const businesses = {
       phone: "713-300-9295",
       email: "info@wcr-texas.com",
       address: "2429 Bissonnet St., Suite 568, Houston, TX 77005",
+    },
+  },
+  "tucker-plumbing": {
+    name: "Tucker Plumbing LLC",
+    slug: "tucker-plumbing",
+    category: "Plumbing",
+    location: "Houston, TX",
+    colors: { primary: "#173B4D", primaryDark: "#102A37", accent: "#D97732" },
+    description:
+      "Tucker Plumbing LLC is a family-owned and operated plumbing company serving the greater Houston area for more than 20 years, providing residential, commercial, and institutional plumbing services with certified master plumbers.",
+    cta: { primary: "Get a Free Quote", secondary: "Call Now" },
+    contact: {
+      phone: "(281) 469-5354",
+      email: "service@tuckerplumbing.net",
+      address: "8219 Coolshire Ln, Houston, TX 77070",
+    },
+  },
+  "hg-roof-repair": {
+    name: "HG Roof Repair",
+    slug: "hg-roof-repair",
+    category: "Roofing",
+    location: "San Antonio, TX",
+    colors: {
+      primary: "#173B4D",
+      primaryDark: "#102A37",
+      accent: "#D97732",
+    },
+    description:
+      "HG Roof Repair is a locally owned San Antonio roofing company specializing in roof repairs, leak repair, missing shingles, storm damage, and roof inspections throughout San Antonio and Bexar County.",
+    cta: {
+      primary: "Get a Free Estimate",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(210) 396-0922",
+      email: "hugoroofer8888@gmail.com",
+      address: "345 N San Gabriel Ave, San Antonio, TX 78237",
+    },
+  },
+  "albright-roofing": {
+    name: "Albright Roofing",
+    slug: "albright-roofing",
+    category: "Roofing",
+    location: "Flint, TX",
+    colors: {
+      primary: "#173B4D",
+      primaryDark: "#102A37",
+      accent: "#D97732",
+    },
+    description:
+      "Albright Roofing is an East Texas roofing company with 16 years in business, providing residential roofing services with a focus on quality work, customer experience, financing, and dependable project completion.",
+    cta: {
+      primary: "Get a Free Inspection",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "903-752-1444",
+      email: "info@roofingetx.com",
+      address:
+        "17968 Old Jacksonville Hwy, Bldg 10, #50, P.O. Box 242, Flint, TX 75762",
     },
   },
 };
