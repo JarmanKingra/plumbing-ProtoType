@@ -354,33 +354,37 @@ const commons = {
 
 const businesses = {
   "mikes-hvac": {
-  name: "Mike's HVAC",
-  slug: "mikes-hvac",
-  category: "Plumbing",
-  location: "Austin, TX",
-  colors: {
-    primary: "#17324d",
-    primaryDark: "#102438",
-    accent: "#d46b2f",
+    name: "Mike's HVAC",
+    slug: "mikes-hvac",
+    category: "Plumbing",
+    location: "Austin, TX",
+    colors: {
+      primary: "#17324d",
+      primaryDark: "#102438",
+      accent: "#d46b2f",
+    },
+    description:
+      "Mike’s HVAC provides residential plumbing services with a focus on dependable repairs, clear communication, and practical solutions for keeping your home’s plumbing running smoothly.",
+    cta: {
+      primary: "Request Service",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(512) 555-0188",
+      email: "service@mikes-hvac.example",
+      address: "Austin, TX",
+    },
   },
-  description:
-    "Mike’s HVAC provides residential plumbing services with a focus on dependable repairs, clear communication, and practical solutions for keeping your home’s plumbing running smoothly.",
-  cta: {
-    primary: "Request Service",
-    secondary: "Call Now",
-  },
-  contact: {
-    phone: "(512) 555-0188",
-    email: "service@mikes-hvac.example",
-    address: "Austin, TX",
-  },
-},
   "tucker-plumbing": {
     name: "Tucker Plumbing LLC",
     slug: "tucker-plumbing",
     category: "Plumbing",
     location: "Houston, TX",
-    colors: { primary: "#173B4D", primaryDark: "#102A37", accent: "#D97732" },
+    colors: {
+      primary: "#0F4C5C",
+      primaryDark: "#083642",
+      accent: "#16A6A0",
+    },
     description:
       "Tucker Plumbing LLC is a family-owned and operated plumbing company serving the greater Houston area for more than 20 years, providing residential, commercial, and institutional plumbing services with certified master plumbers.",
     cta: { primary: "Get a Free Quote", secondary: "Call Now" },
