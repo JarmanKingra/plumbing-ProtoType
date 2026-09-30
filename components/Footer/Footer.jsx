@@ -65,7 +65,7 @@ export default function Footer({ business, commons }) {
           <h3>Services</h3>
 
           <nav>
-            {(business.services || []).slice(0, 5).map((s) => (
+            {(commons.services || []).slice(0, 5).map((s) => (
               <a key={s.name} href="#services">
                 {s.name}
               </a>
