@@ -17,9 +17,10 @@ const commons = {
   yearsInBusiness: 11,
   trustBadges: ["Licensed technicians", "Locally owned"],
   eyebrow: "Comfort service for Austin homes",
-  headline: "Reliable heating and cooling, without the guesswork.",
+  headline: "Reliable roofing, built to protect what matters most.",
+
   subheadline:
-    "Fast diagnostics, practical options, and experienced technicians who respect your home.",
+    "Quality roof repairs, replacements, and storm protection backed by experienced professionals who treat your home with care.",
   hours: ["Mon–Fri: 7:00 AM–7:00 PM", "Sat: 8:00 AM–3:00 PM"],
   services: [
     {
