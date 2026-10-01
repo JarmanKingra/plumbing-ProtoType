@@ -856,6 +856,428 @@ const businesses = {
       address: "7402 N 56th St, Suite 525, Tampa, FL 33617",
     },
   },
+
+  /// batch 2 ---
+  "michael-adams-plumbing": {
+    name: "Michael Adams Plumbing LLC",
+    slug: "michael-adams-plumbing",
+    category: "Plumbing",
+    location: "Jacksonville, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Michael Adams Plumbing LLC provides residential plumbing services in Jacksonville, including plumbing repairs, clogged drain services, leaky faucet repairs, water heater installation and replacement, water softener installation, and general plumbing maintenance.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(904) 639-5300",
+      email: "michael.adams@michaeladamsplumbing.com",
+      address: "410 Blanding Blvd, Ste 10 #308, Jacksonville, FL",
+    },
+  },
+  "everybodys-plumbing-company": {
+    name: "Everybody's Plumbing Company, Inc.",
+    slug: "everybodys-plumbing-company",
+    category: "Plumbing",
+    location: "Jacksonville, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Everybody's Plumbing Company, Inc. provides residential and commercial plumbing services in Jacksonville, including plumbing repairs, drain cleaning, water heater services, sewer services, and general plumbing maintenance.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(305) 439-9023",
+      email: "",
+      address: "7014 Macbeth Rd, Jacksonville, FL 32244",
+    },
+  },
+  "affordable-plumbing": {
+    name: "Affordable Plumbing Company",
+    slug: "affordable-plumbing",
+    category: "Plumbing",
+    location: "Jacksonville, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Affordable Plumbing Company provides residential and commercial plumbing services in Jacksonville, including plumbing repairs, drain and sewer line cleaning, 24/7 emergency plumbing, re-piping, leak detection, water heater services, and bathroom and kitchen remodels.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(904) 288-9003",
+      email: "dispatch@affordableplumbingjacksonville.com",
+      address: "4565 St. Augustine Road, Jacksonville, FL 32207",
+    },
+  },
+  "betros-plumbing": {
+    name: "Betros Plumbing",
+    slug: "betros-plumbing",
+    category: "Plumbing",
+    location: "Jacksonville, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Betros Plumbing provides residential and commercial plumbing services in Jacksonville and Northeast Florida, including plumbing repairs, emergency plumbing, sewer and drain services, water plumbing, gas lines, plumbing fixtures, and commercial plumbing projects.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(904) 683-1968",
+      email: "info@betrosplumbing.com",
+      address: "2600 West Beaver Street, Jacksonville, FL 32254",
+    },
+  },
+  "peyton-plumbing": {
+    name: "Peyton Plumbing",
+    slug: "peyton-plumbing",
+    category: "Plumbing",
+    location: "Jacksonville, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Peyton Plumbing provides residential and commercial plumbing services in Jacksonville, including plumbing repairs, water heater installation and replacement, drain cleaning, sewer repairs, whole-home repiping, water softener installation, and commercial plumbing services.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(904) 678-1754",
+      email: "service@peytonplumbing.com",
+      address: "3780 Kori Rd, Suite 3, Jacksonville, FL 32257",
+    },
+  },
+  "1-tom-plumber": {
+    name: "1-Tom-Plumber Jacksonville",
+    slug: "1-tom-plumber",
+    category: "Plumbing",
+    location: "Jacksonville, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "1-Tom-Plumber Jacksonville provides residential and commercial plumbing services, drain cleaning, water damage restoration, and excavation, with 24/7 emergency plumbing service throughout Jacksonville and surrounding communities.",
+    cta: {
+      primary: "Schedule Appointment",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(904) 325-7175",
+      email: "jacksonville@1tomplumber.com",
+      address: "14476 Duval Pl W, Suite 701, Jacksonville, FL 32218",
+    },
+  },
+  "oconnors-plumbing": {
+    name: "O'Connor's Plumbing Company",
+    slug: "oconnors-plumbing",
+    category: "Plumbing & Septic",
+    location: "Jacksonville, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "O'Connor's Plumbing Company provides residential and commercial plumbing and septic services in Jacksonville and Northeast Florida, including drain cleaning, water heater services, sewer repairs, repiping, septic tank pumping, drain field installation, and emergency plumbing.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(904) 767-4059",
+      email: "oconnorsplumbingfl@gmail.com",
+      address: "530 Ellis Rd S #202, Jacksonville, FL 32254",
+    },
+  },
+  "billy-and-sons-plumbing": {
+    name: "Billy & Sons Plumbing",
+    slug: "billy-and-sons-plumbing",
+    category: "Plumbing",
+    location: "Jacksonville Beach, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Billy & Sons Plumbing provides residential and commercial plumbing services in Jacksonville Beach, including drain cleaning, clogged toilet repair, sewer line maintenance, leak detection, water heater services, water line repair, water main replacement, and pipe thawing.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(904) 590-8100",
+      email: "",
+      address: "204 2nd Ave S, Jacksonville Beach, FL 32250",
+    },
+  },
+  "tactical-plumbing": {
+    name: "Tactical Plumbing, Inc.",
+    slug: "tactical-plumbing",
+    category: "Plumbing",
+    location: "Jacksonville, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Tactical Plumbing, Inc. provides professional plumbing services in the Jacksonville area, serving residential and commercial customers.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(904) 962-4779",
+      email: "",
+      address: "",
+    },
+  },
+  "superior-plumbing": {
+    name: "Superior Plumbing and Pipe Lining",
+    slug: "superior-plumbing",
+    category: "Plumbing",
+    location: "Jacksonville, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Superior Plumbing and Pipe Lining provides residential and commercial plumbing services in Jacksonville, including trenchless pipe lining, water heater installation and repair, pipe cleaning and jetting, re-piping, plumbing fixture repair and replacement, pipe descaling, and cast iron pipe relining.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(904) 238-8001",
+      email: "office@superiorplumbingjax.com",
+      address: "8350 Arlington Expressway, Jacksonville, FL 32211",
+    },
+  },
+  "don-harris-plumbing": {
+    name: "Don Harris Plumbing Co",
+    slug: "don-harris-plumbing",
+    category: "Plumbing",
+    location: "Jacksonville, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Don Harris Plumbing Co provides professional plumbing services in Jacksonville, Florida.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(904) 772-0900",
+      email: "",
+      address: "4029 Blanding Blvd, Jacksonville, FL 32210",
+    },
+  },
+  "beckwith-plumbing": {
+    name: "Beckwith Plumbing Inc.",
+    slug: "beckwith-plumbing",
+    category: "Plumbing",
+    location: "Jacksonville, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Beckwith Plumbing Inc. provides residential and commercial plumbing services in Jacksonville, including water heater repair and installation, bathroom and kitchen renovations, repiping, leak and clog troubleshooting, sewer repairs, plumbing fixture installation, water meters, and new construction plumbing.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(904) 693-0250",
+      email: "beckwithplumbing@gmail.com",
+      address: "1949 Jersey St, Jacksonville, FL 32210",
+    },
+  },
+  "nolan-plumbing": {
+    name: "Nolan Plumbing & Irrigation",
+    slug: "nolan-plumbing",
+    category: "Plumbing & Irrigation",
+    location: "Jacksonville, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Nolan Plumbing & Irrigation provides residential and commercial plumbing, irrigation, septic, drainage, pump and well, backflow protection, and water filtration services in Jacksonville.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(904) 783-4321",
+      email: "info@nolanplumbingandirrigation.com",
+      address: "9020 Beach Blvd, Jacksonville, FL 32216",
+    },
+  },
+  "peoples-plumbing": {
+    name: "People's Plumbing",
+    slug: "peoples-plumbing",
+    category: "Plumbing",
+    location: "Jacksonville, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "People's Plumbing provides professional residential and commercial plumbing services in the Jacksonville area.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(305) 439-9023",
+      email: "",
+      address: "",
+    },
+  },
+  "titan-plumbing-repair": {
+    name: "Titan Plumbing Repair",
+    slug: "titan-plumbing-repair",
+    category: "Plumbing",
+    location: "Miami, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Titan Plumbing Repair provides residential and commercial plumbing repair services throughout Miami-Dade and surrounding areas, including water heater repair and urgent plumbing services.",
+    cta: {
+      primary: "Request Service",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "786-487-9288",
+      email: "office@titanplumbingrepair.com",
+      address: "",
+    },
+  },
+  "miami-shores-plumbing": {
+    name: "Miami Shores Plumbing",
+    slug: "miami-shores-plumbing",
+    category: "Plumbing",
+    location: "Miami Shores, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Miami Shores Plumbing provides residential and commercial plumbing services throughout Miami-Dade and Broward counties, including drain cleaning, fixture installation, water heater services, sewer and septic services, and emergency plumbing.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(305) 751-2446",
+      email: "",
+      address: "900 NW 144th Street, Miami, FL 33168",
+    },
+  },
+  "decorators-plumbing": {
+    name: "Decorator's Plumbing",
+    slug: "decorators-plumbing",
+    category: "Plumbing Fixtures & Design",
+    location: "Miami, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Decorator's Plumbing is a family-owned Miami Design District interior atelier and plumbing showroom offering luxury plumbing fixtures, finishes, and design products for homeowners, designers, and trade professionals.",
+    cta: {
+      primary: "Explore Brands",
+      secondary: "Contact Us",
+    },
+    contact: {
+      phone: "305-576-0022",
+      email: "info@decoratorsplumbing.com",
+      address: "3612 NE 2nd Avenue, Miami, FL 33137",
+    },
+  },
+
+  "liriano-plumbing": {
+    name: "Liriano Plumbing Inc.",
+    slug: "liriano-plumbing",
+    category: "Plumbing",
+    location: "Miami, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "Liriano Plumbing Inc. provides residential plumbing services throughout South Florida, including emergency plumbing, faucet and fixture repair, drain and sewer services, water heater services, and general plumbing repairs.",
+    cta: {
+      primary: "Schedule Service",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(305) 439-9023",
+      email: "",
+      address: "14325 SW 52nd St, Miami, FL 33175",
+    },
+  },
+
+  "ihm-plumbing-services": {
+    name: "IHM Plumbing Services",
+    slug: "ihm-plumbing-services",
+    category: "Plumbing",
+    location: "Miami, FL",
+    colors: {
+      primary: "#164E63",
+      primaryDark: "#0B3444",
+      accent: "#0EA5A4",
+    },
+    description:
+      "IHM Plumbing Services provides licensed and insured plumbing services throughout Miami-Dade, Broward, and West Palm Beach.",
+    cta: {
+      primary: "Get a Quote",
+      secondary: "Call Now",
+    },
+    contact: {
+      phone: "(786) 701-2236",
+      email: "info@ihmplumbingservices.com",
+      address: "",
+    },
+  },
 };
 
 export default businesses;
