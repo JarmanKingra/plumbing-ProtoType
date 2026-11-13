@@ -74,7 +74,7 @@ const commons = {
   },
   team: [
     {
-      name: "Peggy Carter",
+      name: "Brian",
       role: "Owner & Lead Technician",
       bio: "Our company comes with a repair-first, no-pressure approach. Understand what your roof needs, explore your options, and make the next decision with confidence.",
       image: founderImage,
