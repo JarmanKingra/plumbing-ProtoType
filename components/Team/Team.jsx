@@ -11,11 +11,10 @@ export default function Team({commons }) {
       <div className={styles.container}>
         <div className={styles.featuredCard}>
           <div className={styles.featuredImage}>
-            <Image
+            <img
               src={featuredMember.image}
               alt={`${featuredMember.name}, ${featuredMember.role}`}
-              fill
-              sizes="(max-width: 699px) 100vw, 320px"
+              // sizes="(max-width: 699px) 100vw, 320px"
             />
           </div>
 

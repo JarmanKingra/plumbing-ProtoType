@@ -1,4 +1,4 @@
-const founderImage = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOONfBk20UyL6EIor-iV7byIkmA21hlnPfl4En_J21EP5DyqJDlUdf_AM&s=10";
+const founderImage = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGuCEuifzcgE2JeHSmhPgn8vlCQmybcEpGy-c0V7iZFg&s=10";
 const heroImage = "/heroImagePlumbing.png";
 const emergencyPlumbing = "/emergency-plumbing.png";
 const drainCleaning = "/drainCleaning.png";
