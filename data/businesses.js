@@ -1,4 +1,4 @@
-const founderImage = "/plumberOwner.png";
+const founderImage = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOONfBk20UyL6EIor-iV7byIkmA21hlnPfl4En_J21EP5DyqJDlUdf_AM&s=10";
 const heroImage = "/heroImagePlumbing.png";
 const emergencyPlumbing = "/emergency-plumbing.png";
 const drainCleaning = "/drainCleaning.png";
@@ -353,25 +353,25 @@ const commons = {
 };
 
 const businesses = {
-  "ihm-plumbing-services": {
-    name: "IHM Plumbing Services",
-    slug: "ihm-plumbing-services",
+  "zoneplumbing": {
+    name: "Zone Plumbing Services",
+    slug: "Zone plumbing-services",
     category: "Plumbing",
-    location: "Miami, FL",
+    location: "Belfast, UK",
     colors: {
       primary: "#164E63",
       primaryDark: "#0B3444",
       accent: "#0EA5A4",
     },
     description:
-      "IHM Plumbing Services provides licensed and insured plumbing services throughout Miami-Dade, Broward, and West Palm Beach.",
+      "Zone Plumbing Services provides licensed and insured plumbing services throughout Belfast",
     cta: {
       primary: "Get a Quote",
       secondary: "Call Now",
     },
     contact: {
-      phone: "(786) 701-2236",
-      email: "info@ihmplumbingservices.com",
+      phone: "7747462061",
+      email: "info@zoneservices.com",
       address: "",
     },
   },
